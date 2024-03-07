@@ -1,0 +1,79 @@
+#wrappper {
+	margin:auto;
+	width:1390px
+}
+
+header nav{
+  list-style-type: none;
+  text-align: center;
+  margin:0px;
+  padding: 20px;
+
+}
+
+header ul {
+	list-style-type:none;
+	display:inline-block;
+	padding:10px;
+}
+
+header li {
+	display: inline-block;
+	padding:5px;
+}
+
+header li a {	
+	font-family:"comic sans ms";
+	font-size: 35px;
+	color:#ffffff;
+	border-radius:15px;
+	background-color:#ef7b7b;
+	width:150px;
+	display: inline-block;
+	padding: 15px;
+	text-decoration:none;
+}
+
+header li a:hover{ /*마우스 올라감*/
+	font-weight:bold;
+}
+
+header li a:active{ /*마우스 클릭*/
+	font-weight:bold;
+	text-decoration:underline;
+	color:black;
+}
+
+section {
+	margin:auto;
+}
+
+section iframe{
+	border-width:0px;
+	width:1390px; 
+	height:800px;
+}
+
+footer > table {
+	border-spacing:15px;
+}
+
+footer td {
+	font-family:"comic sans ms";
+	font-size: 25px;
+	color:#ffffff;
+	background-color:#ef7b7b;
+	border-radius:15px;
+	padding:5px 10px 10px 5px
+}
+
+footer .td01{
+	padding-left:60px;
+	padding-right:60px;
+}
+
+footer .td02{
+	padding-left:230px;
+	padding-right:230px;
+	
+}

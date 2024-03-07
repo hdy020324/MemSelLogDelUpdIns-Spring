@@ -1,0 +1,100 @@
+/*css : memV01Common.css
+IndianRed
+#CD5C5C
+
+LightCoral
+#F08080
+
+*/
+
+body{
+	font-family:"comic sans ms";
+}
+
+#wrap{
+	margin:auto;
+	width:1340px;
+}
+
+#wrap table {
+	margin:auto;
+	background-color:#f3f2f2;
+	width:900px;	
+	text-align: center; /*텍스트 정렬 가운데*/
+	font-size:30px;
+	padding:1px;
+	border-collapse: collapse;
+}
+
+#wrap .InsUpdT {
+	height:700px;
+}
+
+#wrap .LogDelT{
+	 height:300px;
+}
+
+#wrap .selectT{
+	width:1000px;
+	border-bottom:solid;
+	border-color:#ef7b7b;
+	border-width:2px
+}
+
+#wrap thead{
+	height:80px;
+	background-color:#ef7b7b;
+	color: #ffffff; 
+}
+
+#wrap .selectTh{
+	height:60px;
+	background-color:#ef7b7b;
+	color: #ffffff; 
+}
+
+#wrap .selectIENPA{
+	background-color:#ffffff;
+	color: #ef7b7b; 	
+}
+
+#wrap tbody{
+	color: #FA8072; /*폰트 색*/
+}
+
+#wrap tfoot{
+	height:80px;
+	background-color:#f39696;
+	color: #ffffff; 
+}
+
+#wrap tr.tr_even{
+/*짝수에 해당하는 컬럼에만 tr_even class이름 주기*/
+	background-color: #ffffff;
+}
+
+#wrap .button {
+	width:20%; height:70%;	
+	background-color: #ef7b7b;
+	border-style:solid;
+	border-radius: 8px;
+	border-width:3px;
+	font-family:"comic sans ms";
+	color: #ffffff; 
+	font-size:25px;
+}
+
+ #wrap .textfield{
+	width:80%; height:80%;
+	font-family:"comic sans ms";
+	font-size:30px;
+	border-radius: 8px;
+	border-style: solid;
+	border-color:#ef7b7b;
+}
+
+#wrap .mainImg{
+	margin:auto;
+	font-size:40px;
+	color: #FA8072;
+}
